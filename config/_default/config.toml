@@ -39,3 +39,8 @@ featured_image = "/images/mtf.jpg"
 [cascade]
 [cascade.params]
 featured_image = "/images/mtf.jpg"
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
+
