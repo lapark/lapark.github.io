@@ -21,6 +21,7 @@ Copyright = "This page, its contents and style, are the responsibility of the au
 
 [module]
 #https://www.thenewdynamic.com/article/hugo-modules-everything-from-imports-to-create/
+#https://github.com/gohugo-ananke/template-hugo-mod
 [[module.imports]]
 disable = false
 ignoreConfig = false

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Efficient and effective use of Language Models for Information Retrieval"
-featured_image: "/images/image008.jpg"
+featured_image: "image008.jpg"
 ---
 
 Language models for text based information retrieval have become a de
@@ -28,5 +28,5 @@ To date, we have shown that we can reduce the storage required by PLSA
 to 0.15% of its original storage while providing a statistically
 insignificant change in precision.
 
-{{< figure src="/images/image008.jpg" title="PLSA large storage requirements when using an index can be drastically reduced by using a thesaurus and term frequency index in its place." >}}
+{{< figure src="image008.jpg" title="PLSA large storage requirements when using an index can be drastically reduced by using a thesaurus and term frequency index in its place." >}}
 

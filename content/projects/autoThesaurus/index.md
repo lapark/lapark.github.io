@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Automatic thesaurus construction using non-linear term relationships"
-featured_image: "/images/image010.jpg"
+featured_image: "image010.jpg"
 ---
 
 Text based information retrieval systems retrieve documents based on
@@ -30,4 +30,4 @@ using for information retrieval. Our initial results have shown an
 impressive increase in precision obtained by a retrieval system using
 our kernel LSA method over standard LSA.
 
-{{< figure src="/images/image010.jpg" title="The thesaurus is used to expand the users query into related terms to allow related documents that do not contain the query to be retrieved." >}}
+{{< figure src="image010.jpg" title="The thesaurus is used to expand the users query into related terms to allow related documents that do not contain the query to be retrieved." >}}

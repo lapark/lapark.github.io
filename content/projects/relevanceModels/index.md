@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Relevance-based document models for Information Retrieval"
-featured_image: "/images/image012.jpg"
+featured_image: "image012.jpg"
 ---
 
 Document models are used for information retrieval in order to compute
@@ -31,4 +31,4 @@ content-based model with our relevance based document model, we are
 able to provide high precision results using low storage and fast
 query times.
 
-{{< figure src="/images/image012.jpg" title="The relevance-based document model is built using a linear model of the query set and relevance judgements." >}}
+{{< figure src="image012.jpg" title="The relevance-based document model is built using a linear model of the query set and relevance judgements." >}}

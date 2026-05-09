@@ -34,7 +34,7 @@ Laurence is based in the [Centre for Research in Mathematics and Data Science](h
 - https://www.youtube.com/watch?v=eyq-VGSLVAg
 - https://www.linkedin.com/in/laurence-park
 
-{{< figure width="100%" src="/images/hard_at_works.jpg" title="Photo courtesy of Rami Mukhtar 2003." >}}
+{{< figure width="100%" src="hard_at_works.jpg" title="Photo courtesy of Rami Mukhtar 2003." >}}
 
 
 

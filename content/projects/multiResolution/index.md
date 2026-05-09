@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Improving the quality of Web information retrieval using multi-resolution link analysis"
-featured_image: "/images/image002.jpg"
+featured_image: "image002.jpg"
 ---
 
 The World Wide Web is the most important information source in modern
@@ -40,6 +40,6 @@ of the retrieval results over Google's PageRank. Further research
 using SNMF must be performed to examine the relationships between the
 community ranks and the users' queries.
 
-{{< figure src="/images/image002.jpg" title="A Web graph showing one community partition at the lowest resolution, two community partitions found at the medium resolution, and four community partitions found at a high resolution." >}}
+{{< figure src="image002.jpg" title="A Web graph showing one community partition at the lowest resolution, two community partitions found at the medium resolution, and four community partitions found at a high resolution." >}}
 
 

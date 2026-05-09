@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Discovering document model deficiencies for information retrieval"
-featured_image: "/images/image004.jpg"
+featured_image: "image004.jpg"
 ---
 
 Text based information retrieval systems are built using document
@@ -29,5 +29,5 @@ model. We have also shown that by combining this relevance based model
 with a standard document model, we are able to boost the precision of
 known queries while not loosing any precision for unknown queries.
 
-{{< figure src="/images/image004.jpg" title="The document model deficiencies are found by comparing the document model to the oracle model." >}}
+{{< figure src="image004.jpg" title="The document model deficiencies are found by comparing the document model to the oracle model." >}}
 
