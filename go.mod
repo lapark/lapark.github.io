@@ -1,7 +1,5 @@
-module github.com/theNewDynamic/gohugo-theme-ananke/v2
+module github.com/lapark/lapark.github.io
 
-require github.com/theNewDynamic/gohugo-theme-ananke/v2 v2.12.1 // indirect
+go 1.26.3
 
-//replace github.com/theNewDynamic/gohugo-theme-ananke/v2 => /Users/lapark/Web/gohugo-theme-ananke
-
-go 1.25.0
+require github.com/gohugo-ananke/ananke/v2 v2.13.0 // indirect
