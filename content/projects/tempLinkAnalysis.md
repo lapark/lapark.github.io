@@ -1,0 +1,30 @@
+---
+layout: page
+title: "Web page prefetching using temporal link analysis"
+featured_image: "/images/image006.jpg"
+---
+
+Web searching should be as simple as providing the search engine with
+a query and having the search engine return a link to the desired Web
+page. Unfortunately, current Web search engines use text based queries
+and therefore require the user to provide keywords. Converting the
+users information need into a few key words is not a simple
+process. Due to this, Web search patterns involve the user visiting
+many Web pages that do not satisfy their information need, while
+interleaving this process with several visits to the Web search
+engine. Rather than the user actively searching for pages using key
+words, the search engine could provide pages to the user based on
+their Web usage patterns. By examining the users Web history, we will
+be able to compute the types of Web pages the user desires and hence
+provide search results to the user without the need for key
+words. This method of passive Web searching is called
+prefetching. Given that Google has had such success in using link
+analysis to provide useful retrieval results, we aim to investigate
+the utility of Web links to perform prefetching.
+
+To date, we have successfully applied eigenvalue analysis to our
+temporal link graph (shown in Fig. 3) to obtain a measure of
+importance for each page. We will be examining the effect of using
+Hidden Markov models and their benefit over the eigenvalue analysis.
+
+{{< figure src="/images/image006.jpg" title="A temporal link graph showing the time spent on each page (shown in each circle) and the portion of time from users that have followed each of the incoming links (shown on each of the directed edges)." >}}
