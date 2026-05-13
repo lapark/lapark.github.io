@@ -14,7 +14,7 @@ Laurence is based in the [Centre for Research in Mathematics and Data Science](h
 
 
 - Name: Assoc. Prof. Laurence A. F. Park
-- Position: Associate Dean of Learning and Teaching
+- Department: Artificial Intelligence and Data Science.
 - Address: School of Computer, Data and Mathematical Sciences,
            Western Sydney University,
            Locked Bag 1797, Penrith,
