@@ -6,9 +6,7 @@ tags: ["machine learning", "multi-label classification", "probabilistic models",
 categories: ["Research"]
 description: "When a multi-label classifier makes a prediction, how do you know how much to trust it? A new study from Western Sydney University and École Polytechnique investigates seven candidate functions for estimating expected accuracy — and finds that the answer depends on how you measure accuracy."
 author: "Laurence A. F. Park and Jesse Read"
-cover:
-  image: "multilabel-confidence.svg"
-  alt: "Multi-label confidence estimation — candidate functions compared"
+cover: "multilabel-confidence.svg"
 ---
 
 When a multi-label classifier makes a prediction — say, flagging a patient record for Diabetes, Hypertension, *and* COVID-19 — how confident should you be? This question is harder than it looks. In a single-label setting, the probability score attached to a prediction is a straightforward measure of confidence. In the multi-label world, it gets complicated fast.
