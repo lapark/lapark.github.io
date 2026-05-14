@@ -46,3 +46,12 @@ featured_image = "/images/mtf.jpg"
   [caches.images]
     dir = ':cacheDir/images'
 
+[menus]
+  [[menus.footer]]
+    name = 'Terms'
+    pageRef = '/terms'
+    weight = 10
+  [[menus.footer]]
+    name = 'Privacy'
+    pageRef = '/privacy'
+    weight = 20
