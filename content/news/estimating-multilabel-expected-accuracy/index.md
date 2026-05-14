@@ -13,7 +13,6 @@ When a multi-label classifier makes a prediction — say, flagging a patient rec
 
 A new paper by **Laurence A. F. Park** (Western Sydney University) and **Jesse Read** (École Polytechnique) takes a rigorous look at this problem, testing seven candidate functions for estimating expected accuracy from a multi-label probability distribution — and finding clear winners depending on how accuracy is measured.
 
----
 
 ## The Problem: Confidence in a Multi-Label World
 
@@ -29,7 +28,6 @@ The paper studies three widely used metrics:
 - **Exact Match** — a prediction is only correct if *every* label matches exactly
 - **Jaccard Similarity** — intersection over union; true negatives don't count
 
----
 
 ## Seven Candidate Confidence Functions
 
@@ -46,8 +44,6 @@ The seven candidates tested are:
 7. **Chi-Squared Statistic (CS)** — measures deviation from a uniform distribution
 
 One elegant finding: **Chi-Squared and Gini Impurity are mathematically equivalent** in this setting, so effectively six distinct functions are in play.
-
----
 
 ## What the Experiments Found
 
@@ -75,7 +71,6 @@ For the hardest cases — Jaccard and Exact Match accuracy — no single functio
 
 For Hamming Similarity, individual functions suffice. For Jaccard and Exact Match, reach for the mixture.
 
----
 
 ## Key Takeaways
 
@@ -92,13 +87,11 @@ For Hamming Similarity, individual functions suffice. For Jaccard and Exact Matc
 - For calibrated probability estimates of expected accuracy, combine multiple functions via a fitted logistic regression model.
 - Top Gap, despite its intuitive appeal, consistently underperforms relative to simpler alternatives — avoid it.
 
----
 
 ## A Note on Scale
 
 One important caveat: computing the full powerset distribution over all 2^L label combinations becomes intractable for large *L*. The experiments in this paper were limited to datasets with at most 25 labels, specifically to avoid bias in sample-based entropy estimation. Extending these methods to extreme multi-label settings (hundreds or thousands of labels) remains an open problem.
 
----
 
 ## About the Research
 
@@ -108,6 +101,5 @@ This work builds on a line of research connecting multi-label classification con
 
 **Jesse Read** is a Professor in the Computer Science Laboratory (LIX) at École Polytechnique, Institut Polytechnique de Paris. He is known for his work on classifier chains and leads the MEKA open-source multi-label classification framework.
 
----
 
 *The full paper, including appendices with derivations and additional experimental tables, is available in the [authors' publications repository](https://github.com/lafpark/publications/blob/main/acceptanceCandidates2025.pdf).*

@@ -1,0 +1,20 @@
+
+
+body {
+    max-width: none; /* Removes the maximum width constraint */
+}
+
+.flex-l, .mw7, .center, .ph3, .flex-wrap, .justify-between, article {
+
+}
+
+.mw7, article {
+    max-width: 95%; /* Use the full width of the parent container */
+    margin: 0 auto;  /* Center the content if needed */
+}
+
+p {
+    text-align: left !important; /* Left-align the text */
+}
+
+
