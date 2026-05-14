@@ -10,7 +10,7 @@ weight: -100
 ---
 
 
-Laurence is based in the [Centre for Research in Mathematics and Data Science](https://www.westernsydney.edu.au/crm) at [Western Sydney University](https://www.westernsydney.edu.au).
+Laurence is based in the [Centre for Research in Mathematics and Data Science](https://www.westernsydney.edu.au/crmds) at [Western Sydney University](https://www.westernsydney.edu.au).
 
 
 - Name: Assoc. Prof. Laurence A. F. Park
