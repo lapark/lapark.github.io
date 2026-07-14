@@ -84,9 +84,9 @@ jobs:
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/" \
             --cacheDir "${{ runner.temp }}/hugo_cache"
-           make -C bibliography research.html
-           make -C bibliography install
-           make -C bibliography clean
+           #make -C bibliography research.html
+           #make -C bibliography install
+           #make -C bibliography clean
       - name: Cache save
         id: cache-save
         uses: actions/cache/save@v5
