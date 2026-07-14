@@ -23,8 +23,8 @@ publications.html:	$(PUBLICATIONS)
 
 install: research.html
 	mv research.html ../content/research/index.html
-	#mv *_bib.html ../content/research/
-	#mv *_abstracts.html ../content/research/
+	mv *_bib.html ../static/research/
+	mv *_abstracts.html ../static/research/
 
 clean:	
 	rm -f $(TEMP_PAGES) $(CITES) $(PUBLICATIONS) $(BIBS) $(ABSTRACTS) publications.html research.html
