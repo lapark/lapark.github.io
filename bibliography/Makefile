@@ -22,9 +22,9 @@ publications.html:	$(PUBLICATIONS)
 	sh ./bibtex2htmlChop.sh $*.publication.html
 
 install: research.html
-	mv research.html ../content/research.html
-	mv *_bib.html ../static/research/
-	mv *_abstracts.html ../static/research/
+	mv research.html ../content/research/index.html
+	#mv *_bib.html ../content/research/
+	#mv *_abstracts.html ../content/research/
 
 clean:	
 	rm -f $(TEMP_PAGES) $(CITES) $(PUBLICATIONS) $(BIBS) $(ABSTRACTS) publications.html research.html
