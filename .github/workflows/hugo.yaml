@@ -65,6 +65,11 @@ jobs:
           echo "Node.js: $(node --version)"
       - name: Install bibtex2html
         run: sudo apt-get update && sudo apt-get install -y bibtex2html
+      - name: Generate bibliography
+        run: |
+           make -C bibliography research.html
+           make -C bibliography install
+           make -C bibliography clean
       - name: Install Node.js dependencies
         run: |
           [[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true
@@ -86,9 +91,6 @@ jobs:
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/" \
             --cacheDir "${{ runner.temp }}/hugo_cache"
-           #make -C bibliography research.html
-           #make -C bibliography install
-           #make -C bibliography clean
       - name: Cache save
         id: cache-save
         uses: actions/cache/save@v5
